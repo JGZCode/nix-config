@@ -1,4 +1,4 @@
-# hyprctl montior 
+# hyprctl monitor 
 
 {
     wayland.windowManager.hyprland.settings.monitor = [
