@@ -7,7 +7,7 @@
 
 let
   hostConfig = ../hosts/${if darwin then "darwin" else "nixos/${hostName}"}/configuration.nix;
-  
+
   homeDir = if darwin then "/Users/${user}" else "/home/${user}";
 
   systemFunc = if darwin then inputs.nix-darwin.lib.darwinSystem else nixpkgs.lib.nixosSystem;

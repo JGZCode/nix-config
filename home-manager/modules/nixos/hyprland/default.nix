@@ -5,7 +5,7 @@
     ./configs/binds.nix
     ./configs/monitors.nix
     ./configs/windowrules.nix
-    ./configs/workspaces.nix  
+    ./configs/workspaces.nix
   ];
   wayland.windowManager.hyprland = {
     enable = true;
@@ -19,7 +19,7 @@
         "XDG_SCREENSHOTS_DIR,$HOME/Pictures/Screenshots"
       ];
 
-      
+
       "$terminal" = "ghostty";
       "$fileManager" = "nautilus";
       "$menu" = "wofi";

@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 {
   imports =
-    [ 
+    [
       ./nixos-mods
       ./hardware-configuration.nix
     ];
