@@ -15,7 +15,7 @@
       background-blur-radius = 50;
 
       mouse-hide-while-typing = true;
-    } // (if darwin 
+    } // (if darwin
     then {
       macos-option-as-alt = true;
       theme = "light:catppuccin-latte,dark:catppuccin-mocha";

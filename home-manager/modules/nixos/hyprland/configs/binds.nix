@@ -3,7 +3,7 @@
 { pkgs, ... }:
 {
   wayland.windowManager.hyprland.settings = {
-   
+
     bind = [
       "SUPER,       Q, killactive,"
       "SUPER  CTRL, Q, exit,"
@@ -12,7 +12,7 @@
       "SUPER,       F, togglefloating,"
       "SUPER,       P, pin,"
       "SUPER  CTRL, B, exec, hyprctl switchxkblayout current next"
-     
+
       #program shortcuts
       "SUPER, R,      exec, $fileManager"
       "SUPER, RETURN, exec, $terminal"
@@ -72,7 +72,7 @@
     # -l -> do stuff even when locked
     # -e -> repeats when key is held
 
-    # Laptop multimedia keys for volume and LCD brightness 
+    # Laptop multimedia keys for volume and LCD brightness
     bindle = [
       ",XF86AudioRaiseVolume,  exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"
       ",XF86AudioLowerVolume,  exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
